@@ -13,7 +13,7 @@ const Work = ({ isDarkMode }) => {
 
       {/* Centered grid */}
       <div className='flex justify-center'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 w-full max-w-[900px]'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 w-full max-w-[900px] dark:text-black'>
           {workData.map((project, index) => (
             <div
               key={index}
