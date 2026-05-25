@@ -6,7 +6,11 @@ const Header = () => {
   return (
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
         <div>
-            <Image src={assets.user_image} alt='' className='rounded-full w-32' />
+            <Image
+        src={assets.user_image}
+        alt=''
+        className='w-32 h-32 rounded-full object-cover'
+        />
         </div>
         <h3 className='flex items-end gap-2 text-xl md:text-2xl font-Ovo'>Hi! I'm Zybejde Baraj <Image src={assets.hand_icon} alt='' className='w-6'/></h3>
         <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Software Engineer</h1>
